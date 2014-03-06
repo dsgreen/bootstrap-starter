@@ -1,4 +1,4 @@
-bs-starter
+bootstrap-starter
 ==========
 
 Bootstrap starter template
