@@ -12,10 +12,6 @@ ul.categories {
 	border-top: 1px solid #DADADA;
 	border-bottom: 1px solid #DADADA;
 }
-/*.post footer {
-	border-top: 1px solid #DADADA;
-	border-bottom: 1px solid #DADADA;
-}*/
 .categories-ttl {
 	margin-top: 12px;
 	margin-right: 14px;
@@ -44,4 +40,18 @@ ul.categories {
 }
 legend {
 	border-bottom: none;
+}
+/* portfolio */
+.thumbs img {
+	margin: 0 auto;
+}
+.thumbs p {
+	margin-right: auto;
+	margin-left: auto;
+	text-transform:uppercase;
+}
+@media (max-width:768px) and (min-width:500px) {
+	.thumbs p {
+		width: 500px;
+	}
 }
