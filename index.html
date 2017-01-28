@@ -20,9 +20,9 @@
 <body class="home">
 <div class="sr-only"><a href="#content">skip to page content</a></div>
 
-<header role="banner" id="top">
-  <nav role="navigation" class="navbar navbar-inverse">
-    <div class="container">
+<header class="site-header" id="top" role="banner">
+  <nav class="navbar navbar-inverse" role="navigation">
+    <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
           <span class="sr-only">Toggle navigation</span>
@@ -50,20 +50,14 @@
   </nav>
 </header>
 
-<div id="content" class="container">
+<section class="container-fluid" id="content">
   <div class="row">
-
-    <!--lead-->
-    <div class="col-xs-12">
+    <main class="col-sm-9" id="main" role="main">
       <h1>Heading 1</h1>
       <p class="lead">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget,
         tristique nec, auctor quis, purus. Vivamus ut sem. Fusce aliquam nunc vitae purus. Aenean viverra malesuada
         libero. Fusce ac quam. Donec neque. Nunc venenatis enim nec quam. Cras faucibus, justo vel accumsan aliquam,
         tellus dui fringilla quam, in condimentum augue lorem non tellus. </p>
-    </div>
-
-    <!--main-->
-    <div id="main" role="main" class="col-xs-12 col-sm-9">
 
       <h2>Heading 2</h2>
       <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique nec,
@@ -101,18 +95,21 @@
         <li>list item</li>
         <li>list item</li>
       </ul>
+
       <h4>Unstyled list</h4>
       <ul class="list-unstyled">
         <li>list item</li>
         <li>list item</li>
         <li>list item</li>
       </ul>
+
       <h4>Inline list</h4>
       <ul class="list-inline">
         <li>list item</li>
         <li>list item</li>
         <li>list item</li>
       </ul>
+
       <h3>Ordered list</h3>
       <ol>
         <li>list item</li>
@@ -122,6 +119,7 @@
         <li>list item</li>
         <li>list item</li>
       </ol>
+
       <h3>Description list</h3>
       <dl>
         <dt>Term</dt>
@@ -137,6 +135,7 @@
           auctor quis, purus. Vivamus ut sem.
         </dd>
       </dl>
+
       <h4>Inline description</h4>
       <dl class="dl-horizontal">
         <dt>Term</dt>
@@ -178,7 +177,7 @@
       </blockquote>
 
       <h3>Abbreviations</h3>
-      <p><abbr title="PHP: Hypertext Preprocessor" class="initialism">PHP</abbr></p>
+      <p><abbr class="initialism" title="PHP: Hypertext Preprocessor">PHP</abbr></p>
 
       <h3>Small text</h3>
       <p>
@@ -299,32 +298,25 @@
         <img src="http://placehold.it/800x400" class="img-responsive" alt="some image">
       </p>
 
-    </div><!--/main-->
+    </main>
 
-    <div id="secondary" class="col-xs-12 col-sm-3">
-      <aside role="complementary">
-        <h2>Sidebar</h2>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Duis ligula lorem, consequat eget, tristique nec,
-          auctor quis, purus.
-          Vivamus ut sem. Fusce aliquam nunc vitae purus. Aenean viverra malesuada libero. Fusce ac quam. Donec neque.
-          Nunc venenatis enim nec quam.
-          Cras faucibus, justo vel accumsan aliquam, tellus dui fringilla quam, in condimentum augue lorem non
-          tellus.</p>
-        <h3>Categories</h3>
-        <nav class="category-list">
-          <button type="button" class="btn btn-sm btn-default">Some Category</button>
-          <button type="button" class="btn btn-sm btn-default">Some Category</button>
-          <button type="button" class="btn btn-sm btn-default">Some Category</button>
-          <button type="button" class="btn btn-sm btn-default">Some Category</button>
-        </nav>
-      </aside>
-    </div><!--/secondary-->
+    <aside class="col-sm-3" role="complementary">
+      <h4>Examples</h4>
+      <nav>
+        <ul>
+          <li><a href="examples/blog.html">Blog index</a></li>
+          <li><a href="examples/post.html">Blog post</a></li>
+          <li><a href="examples/portfolio.html">Portfolio index page</a></li>
+          <li><a href="examples/detail.html">Portfolio detail page</a></li>
+        </ul>
+      </nav>
+    </aside>
 
-  </div><!--/.row-->
-</div><!--/#content.container-->
+  </div>
+</section>
 
-<footer role="contentinfo">
-  <div class="container">
+<footer class="site-footer" role="contentinfo">
+  <div class="container-fluid">
     <p class="small pull-left">&copy; Copyright 2015 <i>Company Name</i></p>
     <p class="small pull-right"><a href="#top"><i class="glyphicon glyphicon-triangle-top"></i> back to top</a></p>
   </div>
