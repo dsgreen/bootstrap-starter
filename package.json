@@ -1,0 +1,26 @@
+{
+  "name": "bootstrap-starter",
+  "version": "4.0.0",
+  "description": "Basic Bootstrap templates.",
+  "main": "index.html",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dsgreen/bootstrap-starter.git"
+  },
+  "keywords": [
+    "Bootstrap",
+    "templates"
+  ],
+  "author": "Douglas Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dsgreen/bootstrap-starter/issues"
+  },
+  "homepage": "https://github.com/dsgreen/bootstrap-starter#readme"
+}
