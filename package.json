@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/dsgreen/bootstrap-starter/issues"
   },
-  "homepage": "https://github.com/dsgreen/bootstrap-starter#readme"
+  "homepage": "https://github.com/dsgreen/bootstrap-starter#readme",
+  "dependencies": {
+    "bootstrap": "^4.0.0"
+  }
 }
